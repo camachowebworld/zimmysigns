@@ -1,0 +1,150 @@
+{{> headerBook
+    bodyClass='page-book page-flax-vs-santa'
+    title='Flax vs. Santa | Sign Language Book for Kids | Zimmy Signs'
+    description='Sign Language Christmas Story Book called Flax vs. Santa!'
+    canonical='https://www.zimmysigns.com/books/flax-vs-santa'
+}}
+
+<script>
+  window.bookPreload = {};
+  window.bookPreload.setupManifest = function(templateDirectoryURI, bookName) {
+    return manifest = [
+      {
+        src:  "/imgs/books/intro.jpg",
+        id: "intro-page"
+      },
+      {
+        src:  "/imgs/books/flax-vs-santa/title.jpg",
+        id: "title-page"
+      },
+      {
+        src:  "/imgs/books/flax-vs-santa/flax.jpg",
+        id: "flax-page"
+      },
+      {
+        src:  "/imgs/signs/flax.jpg",
+        id: "flax-sign"
+      },
+      {
+        src:  "/imgs/books/sign-boxes/flax.jpg",
+        id: "flax-signbox"
+      },
+      {
+        src:  "/imgs/books/flax-vs-santa/santa.jpg",
+        id: "santa-page"
+      },
+      {
+        src:  "/imgs/signs/santa.jpg",
+        id: "santa-sign"
+      },
+      {
+        src:  "/imgs/books/sign-boxes/santa.jpg",
+        id: "santa-signbox"
+      },
+      {
+        src:  "/imgs/books/flax-vs-santa/cookies.jpg",
+        id: "cookies-page"
+      },
+      {
+        src:  "/imgs/signs/cookies.jpg",
+        id: "cookies-sign"
+      },
+      {
+        src:  "/imgs/books/sign-boxes/cookies.jpg",
+        id: "cookies-signbox"
+      },
+      {
+        src:  "/imgs/books/flax-vs-santa/tree.jpg",
+        id: "tree-page"
+      },
+      {
+        src:  "/imgs/signs/tree.jpg",
+        id: "tree-sign"
+      },
+      {
+        src:  "/imgs/books/sign-boxes/tree.jpg",
+        id: "tree-signbox"
+      },
+      {
+        src:  "/imgs/books/flax-vs-santa/present.jpg",
+        id: "present-page"
+      },
+      {
+        src:  "/imgs/signs/present.jpg",
+        id: "present-sign"
+      },
+      {
+        src:  "/imgs/books/sign-boxes/present.jpg",
+        id: "present-signbox"
+      },
+      {
+        src:  "/imgs/books/flax-vs-santa/merrychristmas.jpg",
+        id: "merrychristmas-page"
+      },
+      {
+        src:  "/imgs/signs/merrychristmas.jpg",
+        id: "merrychristmas-sign"
+      },
+      {
+        src:  "/imgs/books/sign-boxes/merrychristmas.jpg",
+        id: "merrychristmas-signbox"
+      },
+      {
+        src:  "/imgs/books/flax-vs-santa/thankyou.jpg",
+        id: "thankyou-page"
+      }
+    ];
+  }
+</script>
+
+<div class="book-page page-flax-vs-santa" data-book="flax-vs-santa">
+
+  {{> fullPagePleaseRotate shareTitle="Planet Colors : https://goo.gl/vc8kZ5 via @ZimmyBooks" shareURL="https://www.zimmysigns.com/books/flax-vs-santa"}}
+
+  <section class="book-section">
+    <div class="book-section-loader">Loading... <span></span></div>
+    <div class="clear"></div>
+    <div class="wrapper height-zero">
+      {{> fullPageNav}}
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <!-- intro - slide 0 -->
+          <div class="swiper-slide intro"></div>
+          <!-- title -->
+          <div class="swiper-slide title"></div>
+          <!-- page 01 -->
+          <div class="swiper-slide flax"></div>
+          <!-- page 02 -->
+          <div class="swiper-slide santa"></div>
+          <!-- page 03 -->
+          <div class="swiper-slide cookies"></div>
+          <!-- page 04 -->
+          <div class="swiper-slide tree"></div>
+          <!-- page 05 -->
+          <div class="swiper-slide present"></div>
+          <!-- page 06 -->
+          <div class="swiper-slide merrychristmas"></div>
+          <!-- thank you - after adding credits page apply slide number to window.appSettings.creditsSlide -->
+          <div class="swiper-slide thankyou">
+            <div class="more-things-to-do-wrapper">
+              <a class="more-things-to-do-link more-things-to-do-link-left" href="/books/planet-colors/">
+          			<img class="img-responsive" src="/imgs/books/more-things-to-do/planet-colors.jpg" />
+                <span class="books-and-games-type">book</span>
+          		</a>
+              <a class="more-things-to-do-link more-things-to-do-link-right" href="/books/bayme-pants-the-sun-its-broken/">
+          			<img class="img-responsive" src="/imgs/books/more-things-to-do/bayme-pants-the-sun-its-broken.jpg" />
+                <span class="books-and-games-type">book</span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-button-prev"><i class="fa fa-chevron-left" aria-hidden="true"></i></div>
+        <div class="swiper-button-next"><i class="fa fa-chevron-right" aria-hidden="true"></i></div>
+      </div>
+
+    </div>
+  </section> <!-- book-section - end -->
+
+</div> <!-- book-page - end -->
+
+{{> footerBook }}

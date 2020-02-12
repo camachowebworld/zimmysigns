@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 1007 120" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;">
+    <g transform="matrix(1.16925,0,0,1.46689,-66.0422,-14.2207)">
+        <rect x="56.483" y="9.694" width="861.238" height="81.806" style="fill:url(#_Radial1);"/>
+    </g>
+    <defs>
+        <radialGradient id="_Radial1" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(430.619,0,0,343.243,487.102,50.5972)"><stop offset="0" style="stop-color:white;stop-opacity:1"/><stop offset="0.51" style="stop-color:white;stop-opacity:0.941176"/><stop offset="1" style="stop-color:rgb(239,239,239);stop-opacity:0"/></radialGradient>
+    </defs>
+</svg>

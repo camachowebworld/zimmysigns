@@ -1,0 +1,42 @@
+{{> header
+    bodyClass='page-book page-calendar'
+    title='ASL Calendar Printable | Sign Language Book for Kids | Zimmy Signs'
+    description='ASL Calendar Printable'
+    canonical='https://www.zimmysigns.com/printables/calendar'
+}}
+
+{{> navSimple }}
+
+<section class="section printable-download">
+  <h1>ASL Calendar Printable!</h1>
+  <h2><span>{{month}}</span> {{year}}</h2>
+  <img class="printable-img" src="/printables/calendars/{{year}}/thumbs/zimmysigns-{{month}}-{{year}}.png">
+  <a id="hm-calendar-printable-jpg" href="/printables/calendars/{{year}}/jpgs/zimmysigns-{{month}}-{{year}}.jpg" class="download-link hm-calendar-printable-jpg" download="">pdf</a>
+  <a id="hm-calendar-printable-png" href="/printables/calendars/{{year}}/pngs/zimmysigns-{{month}}-{{year}}.png" class="download-link hm-calendar-printable-png" download="">png</a>
+  <a id="hm-calendar-printable-pdf" href="/printables/calendars/{{year}}/pdfs/zimmysigns-{{month}}-{{year}}.pdf" class="download-link hm-calendar-printable-pdf" download="">jpg</a>
+</section>
+
+<section class="buymeacoffee">
+  <h2>Support ZimmySigns</h2>
+  <p>We're happy to provide free ASL content for kids and family of all ages. Unfortunately, it isn't free on our end. We ask that you make a small donation to out BuyMeACoffee campaign. Any donation would be amazing.</p>
+  <p>Thank you so much.</p>
+  <style>.bmc-button img{width: 27px !important;margin-bottom: 1px !important;box-shadow: none !important;border: none !important;vertical-align: middle !important;}.bmc-button{line-height: 36px !important;height:37px !important;text-decoration: none !important;display:inline-flex !important;color:#ffffff !important;background-color:#FF813F !important;border-radius: 3px !important;border: 1px solid transparent !important;padding: 1px 9px !important;font-size: 22px !important;letter-spacing:0.6px !important;box-shadow: 0px 1px 2px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 1px 2px 2px rgba(190, 190, 190, 0.5) !important;margin: 0 auto !important;font-family:'Cookie', cursive !important;-webkit-box-sizing: border-box !important;box-sizing: border-box !important;-o-transition: 0.3s all linear !important;-webkit-transition: 0.3s all linear !important;-moz-transition: 0.3s all linear !important;-ms-transition: 0.3s all linear !important;transition: 0.3s all linear !important;}.bmc-button:hover, .bmc-button:active, .bmc-button:focus {-webkit-box-shadow: 0px 1px 2px 2px rgba(190, 190, 190, 0.5) !important;text-decoration: none !important;box-shadow: 0px 1px 2px 2px rgba(190, 190, 190, 0.5) !important;opacity: 0.85 !important;color:#ffffff !important;}</style><link href="https://fonts.googleapis.com/css?family=Cookie" rel="stylesheet"><a class="bmc-button" target="_blank" href="https://www.buymeacoffee.com/ewIRmMBLo"><img src="https://www.buymeacoffee.com/assets/img/BMC-btn-logo.svg" alt="Buy me a coffee"><span style="margin-left:5px">Buy me a coffee</span></a>
+</section>
+
+<section class="section printable-monthly-downloads">
+  <table style="width:100%">
+    <tr class="printalbe-header">
+      <th colspan="4">2019 Calendar Printables</th>
+    </tr>
+    {{#each months}}
+      <tr>
+        <th class="month">{{this}}</th>
+        <th class="download-link"><a class="download-link hm-calendar-printable-jpg" href="/printables/calendars/{{../year}}/pdfs/zimmysigns-{{this}}-{{../year}}.pdf" download="">pdf</a></th>
+        <th class="download-link"><a class="download-link hm-calendar-printable-jpg" href="/printables/calendars/{{../year}}/pngs/zimmysigns-{{this}}-{{../year}}.png" download="">png</a></th>
+        <th class="download-link"><a class="download-link hm-calendar-printable-jpg" href="/printables/calendars/{{../year}}/jpgs/zimmysigns-{{this}}-{{../year}}.jpg" download="">jpg</a></th>
+      </tr>
+    {{/each}}
+  </table>
+</section>
+
+{{> footer }}
